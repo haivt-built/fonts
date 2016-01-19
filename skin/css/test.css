@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "AvenirNext";
+  src: url('../fonts/AvenirNext/AvenirNext-Regular.eot?1452478260');
+  src: url('../fonts/AvenirNext/AvenirNext-Regular.eot?&1452478260#iefix') format('embedded-opentype'), url('../fonts/AvenirNext/AvenirNext-Regular.woff?1452478260') format('woff'), url('../fonts/AvenirNext/AvenirNext-Regular.ttf?1452478260') format('truetype'), url('../fonts/AvenirNext/AvenirNext-Regular.svg?1452478260') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.item1 {
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+.item2 {
+  background: repeating-linear-gradient(45deg, transparent, transparent 10px, #ccc 10px, #ccc 20px), linear-gradient(to bottom, #eeeeee, #999999);
+}
+
+.item3 {
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 10px, rgba(0, 0, 0, 0.3) 10px, rgba(0, 0, 0, 0.3) 20px), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
+}
+
+.item4 {
+  background: repeating-linear-gradient(-55deg, #222, #222 10px, #333 10px, #333 20px);
+}
+
+.item5 {
+  background: repeating-linear-gradient(to right, #f6ba52, #f6ba52 10px, #ffd180 10px, #ffd180 20px);
+}
+
+.item6 {
+  background: repeating-radial-gradient(circle, purple, purple 10px, #4b026f 10px, #4b026f 20px);
+}
+
+.bx-items {
+  overflow: hidden;
+  *zoom: 1;
+}
+.bx-items .item {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 500px;
+}

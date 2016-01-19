@@ -6,10 +6,11 @@ http_path = "/"
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "images"
-javascripts_dir = "javascripts"
+javascripts_dir = "js"
 relative_assets = true
-output_style = :compact
-line_comments = true
+output_style = :expanded
+line_comments = false
+preferred_syntax = :sass
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
